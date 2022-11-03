@@ -1,0 +1,65 @@
+/* .launch-left-div {
+  position: absolute;
+} */
+
+.launch-heading {
+	z-index: 1;
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.launch-heading input {
+	background-color: inherit;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 46px;
+	/* / padding: 2rem; / */
+	background-color: inherit;
+	border: 0.8rem;
+	background: rgba(68, 50, 126, 0.4);
+	border: 1px solid #59459a;
+	border-radius: 12px;
+	color: white;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	/* / height: 46px; / */
+	/* / padding: 2rem; / */
+	background-color: inherit;
+	padding: 5px;
+	border: 0.8rem;
+	background: rgba(68, 50, 126, 0.4);
+	border: 1px solid #59459a;
+	border-radius: 12px;
+	color: white;
+}
+
+input::-webkit-input-placeholder {
+	color: #ffffff;
+	padding: 5px;
+	/* / font-size: 1.8rem; / */
+}
+textarea::-webkit-input-placeholder {
+	color: #ffffff;
+	/* / font-size: 1.8rem; / */
+}
+
+.next-button {
+	margin-top: 30px;
+	/* / justify-content: center; / */
+	align-items: flex-start;
+	padding: 13px 24px;
+	/* / gap: 5px; / */
+	background: linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+	border: none;
+	color: white;
+	width: 200px;
+	border-radius: 2px;
+	margin-bottom: 40px;
+}

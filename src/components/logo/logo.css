@@ -1,0 +1,43 @@
+/* body {
+	background: url('https://www.toptal.com/designers/subtlepatterns/patterns/worn_dots.png');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	perspective: 200px;
+	overflow: hidden;
+} */
+
+.Parallax-container {
+	padding: 2em;
+	width: 250px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	transform-style: preserve-3d;
+	cursor: pointer;
+}
+
+.Parallax-imgShadow {
+	z-index: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 60%;
+	transform: translate(-50%, -30%);
+	object-fit: cover;
+	filter: blur(20px);
+}
+
+.Parallax-img {
+	position: relative;
+	max-width: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	transform-style: preserve-3d;
+}
+.a {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+}

@@ -1,0 +1,107 @@
+.lcontainer {
+	position: relative;
+	top: -25rem;
+	z-index: 1;
+}
+.bg2 {
+	position: absolute;
+	height: 48.749rem;
+	width: 100%;
+	z-index: -1;
+}
+.bg3 {
+	/* position: absolute; */
+	/* top: 0; */
+	/* width: 98%; */
+}
+
+.lText {
+	/* position: absolute; */
+	margin-top: 8rem;
+
+	/* top: 8rem; */
+	/* width: 724.52px; */
+	/* height: 70px; */
+
+	text-align: center;
+	/* Head 1 */
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	text-align: center;
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.icons {
+	/* position: absolute;
+	top: 12rem; */
+	margin-top: 8rem;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+	flex-wrap: wrap;
+}
+
+.icon-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.icon-inner img {
+	width: 10rem;
+	align-self: center;
+	height: 10rem;
+	/* margin-left: 4rem; */
+}
+.icon-inner p {
+	align-self: center;
+	font-family: 'Poppins';
+	color: #ffffff;
+	font-size: 2rem;
+	margin-top: 1rem;
+	/* margin-left: 4rem; */
+	font-style: normal;
+	font-weight: 300;
+	line-height: 3rem;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+	.icons {
+		margin-top: 7rem;
+		gap: 5rem;
+	}
+}
+@media (max-width: 998px) {
+	.icons {
+		margin-top: 6rem;
+		gap: 4rem;
+	}
+}
+@media (max-width: 768px) {
+	.icons {
+		margin-top: 4rem;
+		gap: 3rem;
+	}
+}
+@media (max-width: 468px) {
+	.icons {
+		margin-top: 3rem;
+		gap: 2rem;
+	}
+}

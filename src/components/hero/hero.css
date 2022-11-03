@@ -1,0 +1,86 @@
+.bg1 {
+	position: absolute;
+	/* width: 1444px; */
+	width: 100%;
+	height: 943px;
+	/* left: 0px; */
+	top: 0px;
+	z-index: -1;
+}
+.obj-div {
+	/* position: relative; */
+}
+.text-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.text-div div {
+	align-self: center;
+}
+.objImg {
+	position: absolute;
+	width: 60.7rem;
+	height: 90.4rem;
+	right: 5rem;
+	top: 4rem;
+}
+.avtar-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.avtar-img img {
+	object-fit: cover;
+	width: 60.7rem;
+	height: 90.4rem;
+}
+.text1 {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 6rem;
+	line-height: 7rem;
+	/* or 117% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.btn1 {
+	background: linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+
+	padding: 1.3rem 1.7rem;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	border: none;
+	font-size: 1.6rem;
+	cursor: pointer;
+}
+.hero-text {
+	margin-top: 30rem;
+	padding-left: 15rem;
+}
+
+@media only screen and (max-width: 1200px) {
+	.hero-text {
+		padding-left: 12rem;
+	}
+}
+@media (max-width: 768px) {
+	.hero-text {
+		padding-left: 9rem;
+	}
+}
+/* @media only screen and (min-width: 600px) {
+	.heroText {
+		left: 0;
+	}
+} */
+@media only screen and (max-width: 425px) {
+}

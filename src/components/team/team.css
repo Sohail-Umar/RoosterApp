@@ -1,0 +1,68 @@
+.team-heading {
+	position: relative;
+	margin-top: 70rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team-heading h1 {
+	width: 40.3rem;
+	height: 7rem;
+
+	/* Head 1 */
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+}
+.team-heading p {
+	width: 83.2rem;
+	height: 9rem;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% */
+
+	text-align: center;
+
+	color: #ffffff;
+}
+.team-card img {
+	width: 36.4rem;
+	height: 54.7rem;
+}
+.team-card {
+	position: relative;
+}
+.team-card-heading {
+	position: absolute;
+	bottom: 3rem;
+	left: 2rem;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 2.6rem;
+}
+.team-card-logo {
+	position: absolute;
+	bottom: 3rem;
+	right: 9rem;
+}
+.team-card-logo a {
+	font-size: 4rem;
+	color: #ffffff;
+}

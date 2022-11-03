@@ -1,0 +1,76 @@
+.section-chain-bg {
+	position: relative;
+}
+.section-chain-bg1 {
+	position: absolute;
+	/* background-image: url(../../../public/img/Vector\ 9.png); */
+
+	/* /* top: 266.2rem; */
+	/* background-repeat: no-repeat; */
+	width: 100%;
+	/* width: 100%; */
+	z-index: -1;
+	/* Dark Neutral */
+	height: 110.5rem;
+	left: -0.3rem;
+}
+.mtc {
+	margin-top: 15rem;
+}
+.headings {
+	/* margin-top: 50rem; */
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 20rem !important;
+}
+.headings h1 {
+	/* Head 1 */
+	margin-top: 13rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.headings p {
+	width: 80.3rem;
+	height: 9rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% *rem/
+
+    
+    
+	/* Inside auto layout */
+	color: #ffffff;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.headings {
+	margin: 0 auto;
+}
+
+.gameImg1 {
+	/* width: 55.5rem; */
+	height: 100%;
+	/* object-fit: contain; */
+}

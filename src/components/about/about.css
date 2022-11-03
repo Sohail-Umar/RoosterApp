@@ -1,0 +1,52 @@
+.heading {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.8rem;
+	line-height: 7rem;
+	color: #ffff;
+	/* or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+}
+
+.texts {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% */
+
+	color: #ffffff;
+}
+
+.img-div img {
+	width: 50.2rem;
+	height: 50rem;
+	/* left: 50.5rem; */
+	object-fit: contain;
+}
+.btnA {
+	background: linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+
+	padding: 1.3rem 1.7rem;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	border: none;
+	font-size: 1.6rem;
+
+	cursor: pointer;
+}
+.img-div2 img {
+	width: 65rem;
+	/* height: 64rem; */
+	object-fit: contain;
+}
+.amtc {
+	margin-top: 15rem !important;
+}

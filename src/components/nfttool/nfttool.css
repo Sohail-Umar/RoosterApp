@@ -1,0 +1,48 @@
+.mt {
+	margin-top: 20rem;
+}
+.text-item {
+	padding: 2rem;
+}
+.text-item h1 {
+	width: 40.3rem;
+	height: 7rem;
+
+	/* Head 1 */
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.text-item p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.6rem;
+	line-height: 3.9rem;
+
+	color: #ffffff;
+}
+.craousel-div {
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(6px);
+	/* Note: backdrop-filter has minimal browser support */
+	border-radius: 2rem;
+	height: 50rem;
+}
+
+.craousel-div .carousel {
+	margin-top: 2rem;
+	/* width: 90% !important; */
+}
+.carousel-inner {
+	align-items: center;
+}

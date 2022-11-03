@@ -1,0 +1,39 @@
+.logo {
+	position: absolute;
+	width: 309px;
+	height: 95px;
+	left: 0px;
+	top: 0px;
+}
+.navbar-toggler {
+	font-size: 3rem;
+	background: linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+	border: 1px solid linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+}
+.btn2 {
+	background: linear-gradient(100.86deg, #4e39d7 14.47%, #c615a9 123.62%);
+
+	padding: 1.3rem 1.7rem;
+	font-family: 'Poppins';
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	border: none;
+	font-size: 1.6rem;
+	/* width: 18.7rem;
+	height: 4.7rem; */
+	cursor: pointer;
+}
+.navList {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5px;
+	flex-wrap: wrap;
+	text-transform: uppercase;
+}
+.nav-link {
+	font-size: 2rem;
+	margin-right: 1rem;
+}

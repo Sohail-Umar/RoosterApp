@@ -1,0 +1,63 @@
+.cont-heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+}
+.cont-heading h1 {
+	width: 67.3rem;
+	height: 7rem;
+
+	/* Head 1 */
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.cont-heading p {
+	width: 83.2rem;
+	height: 9rem;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% */
+
+	text-align: center;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+.form-div input,
+textarea {
+	width: 100%;
+	padding: 2rem;
+	background-color: inherit;
+	border: 0.8rem;
+	background: rgba(68, 50, 126, 0.4);
+	border: 1px solid #59459a;
+}
+input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: 1.8rem;
+}
+textarea::-webkit-input-placeholder {
+	color: #ffffff;
+	font-size: 1.8rem;
+}

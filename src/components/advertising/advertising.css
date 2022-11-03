@@ -1,0 +1,84 @@
+.section-add-bg {
+	position: relative;
+	margin-top: 10rem;
+}
+.section-add-bg1 {
+	position: absolute;
+	/* width: 173.7rem; */
+	width: 100%;
+	height: 61.5rem;
+}
+.add-box {
+	box-sizing: border-box;
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 4rem;
+	gap: 20px;
+	margin-top: 2rem;
+
+	position: absolute;
+	/* width: 49.9rem; */
+	/* width: 100%; */
+	height: 41.3rem;
+	/* left: 79.4rem; */
+	right: 10rem;
+	top: 11.5rem;
+	border: 1px solid linear-gradient(124.41deg, #c615a9 0%, #4e39d7 100%);
+
+	border-image-source: linear-gradient(124.41deg, #c615a9 0%, #4e39d7 100%);
+
+	background: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(6px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 2rem;
+}
+.add-box h1 {
+	width: 35.3rem;
+	height: 7rem;
+
+	/* Head 1 */
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 70px;
+	/* identical to box height, or 125% */
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	z-index: 1;
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.add-box p {
+	width: 43.9rem;
+	height: 15rem;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% */
+	z-index: 1;
+	text-align: center;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}

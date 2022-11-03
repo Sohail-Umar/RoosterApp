@@ -1,0 +1,191 @@
+.section-bg {
+	position: relative;
+}
+.section-bg1 {
+	position: absolute;
+	/* background-image: url(../../../public/img/Vector\ 9.png); */
+
+	/* /* top: 266.2rem; */
+	background-repeat: no-repeat;
+	width: 100%;
+	/* width: 100%; */
+	z-index: -1;
+	/* Dark Neutral */
+	height: 102.5rem;
+	left: -0.3rem;
+}
+.headings-auction {
+	/* margin-top: 50rem; */
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.headings-auction h1 {
+	/* Head 1 */
+	margin-top: 13rem;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 5.6rem;
+	line-height: 7rem;
+	/* identical to box height, or 125% */
+
+	letter-spacing: -0.04em;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.headings-auction p {
+	width: 61.1rem;
+	height: 9rem;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	/* or 188% *rem/
+
+    
+    
+	/* Inside auto layout */
+	color: #ffffff;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.headings-auction {
+	margin: 0 auto;
+}
+.auction-div {
+	position: relative;
+}
+.auction-div2 {
+	position: absolute;
+	width: 100%;
+}
+.auction-bg {
+	width: 100%;
+	/* position: absolute; */
+	/* right: 5rem; */
+	/* top: 33.8rem; */
+	/* height: 43.8rem; */
+}
+
+.bg-btn {
+	/* background-image: url(../../../public/img/Vector\ 12.png);
+	background-repeat: no-repeat; */
+	position: absolute;
+	right: 2rem;
+	width: 40.216rem;
+	height: 8.952rem;
+}
+.bg-btn a:first-child {
+	margin-right: 8rem;
+	margin-left: 14rem;
+}
+.arrow-btn {
+	position: absolute;
+	/* margin-top: 4rem; */
+	top: -15rem;
+	right: 12rem;
+	z-index: 1;
+}
+.button-relative {
+	position: relative;
+	margin-top: 5.5rem;
+}
+.arrow-btn a {
+	margin-right: 2rem;
+	padding-left: 4rem;
+	color: white;
+	font-size: 2rem;
+	text-decoration: none;
+}
+.auction-div {
+	position: relative;
+}
+.card {
+	background-color: inherit;
+	padding: 0;
+	width: 28.3rem;
+	color: #ffffff;
+	border-radius: 3rem 3rem 0.8rem 0.8rem;
+	border: 1px solid #7ef9f9;
+	height: 41.4rem;
+	/* object-fit: cover; */
+}
+.card-img-top {
+	width: 100%;
+	height: 30.3rem;
+	object-fit: cover;
+	border-radius: inherit;
+}
+.card-body1 {
+	position: relative;
+	margin-bottom: 0 !important;
+}
+.card-body1 img {
+	position: absolute;
+	top: 0.1rem;
+	right: 0.2rem;
+}
+.card-body1 p {
+	font-family: 'The Cartel';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2.4rem;
+	line-height: 3.4rem;
+	padding-left: 1rem;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	color: #ffffff;
+}
+.card-body2 p {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	/* identical to box height */
+
+	color: #ffffff;
+	margin-bottom: 0 !important;
+}
+.card-body2 {
+	padding: 1rem;
+}
+.view-btn {
+	border-radius: inherit;
+}
+.view-btn a {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	/* identical to box height */
+
+	text-transform: uppercase;
+
+	/* Blue Primary */
+
+	background: #4e39d7;
+}
+.card-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 15rem;
+	/* flex-wrap: wrap; */
+}
